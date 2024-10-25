@@ -1,9 +1,24 @@
 using CitasMedicasApp.Persistance.Context;
+using CitasMedicasApp.Persistance.Interface.Appointments;
+using CitasMedicasApp.Persistance.Interface.Configuration;
+using CitasMedicasApp.Persistance.Interface.Insurance;
+using CitasMedicasApp.Persistance.Repositories;
+using CitasMedicasApp.Persistance.Repositories.Appointments;
+using CitasMedicasApp.Persistance.Repositories.Insurance;
+
 
 var builder = WebApplication.CreateBuilder(args);
 
+
 // Add services to the container.
+
 builder.Services.AddDbContext<CitaContext>(options => options.UseSqlServer(builder.Configuration.GetConnectionString("CitasMedicasDb")));
+
+// el registro de cada una de las dependencias repositorios de configuracion //
+
+builder.Services.AddScoped<IDoctorRepositorio, DoctorRepositorio>();
+builder.Services.AddScoped<ICitaRepositorio, CitaRepositorio>();
+builder.Services.AddScoped<IPatientsRepositorio, PatientsRepositorio>();
 
 
 
@@ -13,6 +28,7 @@ builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
 var app = builder.Build();
+
 
 // Configure the HTTP request pipeline.
 if (app.Environment.IsDevelopment())
@@ -26,3 +42,5 @@ app.UseAuthorization();
 app.MapControllers();
 
 app.Run();
+
+
