@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\User\\Source\\Repos\\SRS-CitasMedicas\\CitasMedicasApp.Infraestructure\\CitasMedicasApp.Infraestructure.csproj": {}
+    "C:\\Users\\User\\Desktop\\NuevaCitasMedicasAPP\\CitasMedicasApp.Infraestructure\\CitasMedicasApp.Infraestructure.csproj": {}
   },
   "projects": {
-    "C:\\Users\\User\\Source\\Repos\\SRS-CitasMedicas\\CitasMedicasApp.Infraestructure\\CitasMedicasApp.Infraestructure.csproj": {
+    "C:\\Users\\User\\Desktop\\NuevaCitasMedicasAPP\\CitasMedicasApp.Infraestructure\\CitasMedicasApp.Infraestructure.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\User\\Source\\Repos\\SRS-CitasMedicas\\CitasMedicasApp.Infraestructure\\CitasMedicasApp.Infraestructure.csproj",
+        "projectUniqueName": "C:\\Users\\User\\Desktop\\NuevaCitasMedicasAPP\\CitasMedicasApp.Infraestructure\\CitasMedicasApp.Infraestructure.csproj",
         "projectName": "CitasMedicasApp.Infraestructure",
-        "projectPath": "C:\\Users\\User\\Source\\Repos\\SRS-CitasMedicas\\CitasMedicasApp.Infraestructure\\CitasMedicasApp.Infraestructure.csproj",
+        "projectPath": "C:\\Users\\User\\Desktop\\NuevaCitasMedicasAPP\\CitasMedicasApp.Infraestructure\\CitasMedicasApp.Infraestructure.csproj",
         "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\User\\Source\\Repos\\SRS-CitasMedicas\\CitasMedicasApp.Infraestructure\\obj\\",
+        "outputPath": "C:\\Users\\User\\Desktop\\NuevaCitasMedicasAPP\\CitasMedicasApp.Infraestructure\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

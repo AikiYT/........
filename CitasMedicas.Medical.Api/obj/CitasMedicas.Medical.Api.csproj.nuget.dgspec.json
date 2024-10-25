@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\User\\Source\\Repos\\SRS-CitasMedicas\\CitasMedicas.Medical.Api\\CitasMedicas.Medical.Api.csproj": {}
+    "C:\\Users\\User\\Desktop\\NuevaCitasMedicasAPP\\CitasMedicas.Medical.Api\\CitasMedicas.Medical.Api.csproj": {}
   },
   "projects": {
-    "C:\\Users\\User\\Source\\Repos\\SRS-CitasMedicas\\CitasMedicaApp.Domain\\CitasMedicaApp.Domain.csproj": {
+    "C:\\Users\\User\\Desktop\\NuevaCitasMedicasAPP\\CitasMedicaApp.Domain\\CitasMedicaApp.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\User\\Source\\Repos\\SRS-CitasMedicas\\CitasMedicaApp.Domain\\CitasMedicaApp.Domain.csproj",
+        "projectUniqueName": "C:\\Users\\User\\Desktop\\NuevaCitasMedicasAPP\\CitasMedicaApp.Domain\\CitasMedicaApp.Domain.csproj",
         "projectName": "CitasMedicaApp.Domain",
-        "projectPath": "C:\\Users\\User\\Source\\Repos\\SRS-CitasMedicas\\CitasMedicaApp.Domain\\CitasMedicaApp.Domain.csproj",
+        "projectPath": "C:\\Users\\User\\Desktop\\NuevaCitasMedicasAPP\\CitasMedicaApp.Domain\\CitasMedicaApp.Domain.csproj",
         "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\User\\Source\\Repos\\SRS-CitasMedicas\\CitasMedicaApp.Domain\\obj\\",
+        "outputPath": "C:\\Users\\User\\Desktop\\NuevaCitasMedicasAPP\\CitasMedicaApp.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -69,14 +69,14 @@
         }
       }
     },
-    "C:\\Users\\User\\Source\\Repos\\SRS-CitasMedicas\\CitasMedicas.Medical.Api\\CitasMedicas.Medical.Api.csproj": {
+    "C:\\Users\\User\\Desktop\\NuevaCitasMedicasAPP\\CitasMedicas.Medical.Api\\CitasMedicas.Medical.Api.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\User\\Source\\Repos\\SRS-CitasMedicas\\CitasMedicas.Medical.Api\\CitasMedicas.Medical.Api.csproj",
+        "projectUniqueName": "C:\\Users\\User\\Desktop\\NuevaCitasMedicasAPP\\CitasMedicas.Medical.Api\\CitasMedicas.Medical.Api.csproj",
         "projectName": "CitasMedicas.Medical.Api",
-        "projectPath": "C:\\Users\\User\\Source\\Repos\\SRS-CitasMedicas\\CitasMedicas.Medical.Api\\CitasMedicas.Medical.Api.csproj",
+        "projectPath": "C:\\Users\\User\\Desktop\\NuevaCitasMedicasAPP\\CitasMedicas.Medical.Api\\CitasMedicas.Medical.Api.csproj",
         "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\User\\Source\\Repos\\SRS-CitasMedicas\\CitasMedicas.Medical.Api\\obj\\",
+        "outputPath": "C:\\Users\\User\\Desktop\\NuevaCitasMedicasAPP\\CitasMedicas.Medical.Api\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -98,8 +98,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\User\\Source\\Repos\\SRS-CitasMedicas\\CitasMedicasApp.Persistance\\CitasMedicasApp.Persistance.csproj": {
-                "projectPath": "C:\\Users\\User\\Source\\Repos\\SRS-CitasMedicas\\CitasMedicasApp.Persistance\\CitasMedicasApp.Persistance.csproj"
+              "C:\\Users\\User\\Desktop\\NuevaCitasMedicasAPP\\CitasMedicasApp.Persistance\\CitasMedicasApp.Persistance.csproj": {
+                "projectPath": "C:\\Users\\User\\Desktop\\NuevaCitasMedicasAPP\\CitasMedicasApp.Persistance\\CitasMedicasApp.Persistance.csproj"
               }
             }
           }
@@ -147,14 +147,14 @@
         }
       }
     },
-    "C:\\Users\\User\\Source\\Repos\\SRS-CitasMedicas\\CitasMedicasApp.Persistance\\CitasMedicasApp.Persistance.csproj": {
+    "C:\\Users\\User\\Desktop\\NuevaCitasMedicasAPP\\CitasMedicasApp.Persistance\\CitasMedicasApp.Persistance.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\User\\Source\\Repos\\SRS-CitasMedicas\\CitasMedicasApp.Persistance\\CitasMedicasApp.Persistance.csproj",
+        "projectUniqueName": "C:\\Users\\User\\Desktop\\NuevaCitasMedicasAPP\\CitasMedicasApp.Persistance\\CitasMedicasApp.Persistance.csproj",
         "projectName": "CitasMedicasApp.Persistance",
-        "projectPath": "C:\\Users\\User\\Source\\Repos\\SRS-CitasMedicas\\CitasMedicasApp.Persistance\\CitasMedicasApp.Persistance.csproj",
+        "projectPath": "C:\\Users\\User\\Desktop\\NuevaCitasMedicasAPP\\CitasMedicasApp.Persistance\\CitasMedicasApp.Persistance.csproj",
         "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\User\\Source\\Repos\\SRS-CitasMedicas\\CitasMedicasApp.Persistance\\obj\\",
+        "outputPath": "C:\\Users\\User\\Desktop\\NuevaCitasMedicasAPP\\CitasMedicasApp.Persistance\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -176,8 +176,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\User\\Source\\Repos\\SRS-CitasMedicas\\CitasMedicaApp.Domain\\CitasMedicaApp.Domain.csproj": {
-                "projectPath": "C:\\Users\\User\\Source\\Repos\\SRS-CitasMedicas\\CitasMedicaApp.Domain\\CitasMedicaApp.Domain.csproj"
+              "C:\\Users\\User\\Desktop\\NuevaCitasMedicasAPP\\CitasMedicaApp.Domain\\CitasMedicaApp.Domain.csproj": {
+                "projectPath": "C:\\Users\\User\\Desktop\\NuevaCitasMedicasAPP\\CitasMedicaApp.Domain\\CitasMedicaApp.Domain.csproj"
               }
             }
           }
