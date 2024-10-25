@@ -6,6 +6,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using CitasMedicaApp.Domain.Base;
+using CitasMedicaApp.Domain.Users;
 
 namespace CitasMedicaApp.Domain.Entities
 {
