@@ -1,0 +1,25 @@
+﻿using System;
+using System.Collections.Generic;
+using System.ComponentModel.DataAnnotations;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+using CitasMedicaApp.Domain.Base;
+using CitasMedicaApp.Domain.Users;
+
+namespace CitasMedicaApp.Domain.Entities.Reservation
+{
+    public sealed class ConfirmacionReserva : BaseEntity
+    {
+        [Key]
+        public int SolicitudReservaId { get; set; }
+        public DateTime FechaConfirmacion { get; set; }
+
+        
+        public SolicitudReserva SolicitudReserva { get; set; } // Relación con SolicitudReserva
+
+        // Si la cita fue generada tras la confirmación
+        public int? IdCita { get; set; }
+        public Cita CitaGenerada { get; set; }
+    }
+}

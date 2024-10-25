@@ -1,0 +1,12 @@
+C:\Users\User\Source\Repos\SRS-CitasMedicas\CitasMedicaApp.Domain\obj\Debug\net8.0\CitasMedicaApp.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\User\Source\Repos\SRS-CitasMedicas\CitasMedicaApp.Domain\obj\Debug\net8.0\CitasMedicaApp.Domain.AssemblyInfoInputs.cache
+C:\Users\User\Source\Repos\SRS-CitasMedicas\CitasMedicaApp.Domain\obj\Debug\net8.0\CitasMedicaApp.Domain.AssemblyInfo.cs
+C:\Users\User\Source\Repos\SRS-CitasMedicas\CitasMedicaApp.Domain\obj\Debug\net8.0\CitasMedicaApp.Domain.csproj.CoreCompileInputs.cache
+C:\Users\User\Source\Repos\SRS-CitasMedicas\CitasMedicaApp.Domain\obj\Debug\net8.0\CitasMedicaApp.Domain.sourcelink.json
+C:\Users\User\Source\Repos\SRS-CitasMedicas\CitasMedicaApp.Domain\bin\Debug\net8.0\CitasMedicaApp.Domain.deps.json
+C:\Users\User\Source\Repos\SRS-CitasMedicas\CitasMedicaApp.Domain\bin\Debug\net8.0\CitasMedicaApp.Domain.dll
+C:\Users\User\Source\Repos\SRS-CitasMedicas\CitasMedicaApp.Domain\bin\Debug\net8.0\CitasMedicaApp.Domain.pdb
+C:\Users\User\Source\Repos\SRS-CitasMedicas\CitasMedicaApp.Domain\obj\Debug\net8.0\CitasMedicaApp.Domain.dll
+C:\Users\User\Source\Repos\SRS-CitasMedicas\CitasMedicaApp.Domain\obj\Debug\net8.0\refint\CitasMedicaApp.Domain.dll
+C:\Users\User\Source\Repos\SRS-CitasMedicas\CitasMedicaApp.Domain\obj\Debug\net8.0\CitasMedicaApp.Domain.pdb
+C:\Users\User\Source\Repos\SRS-CitasMedicas\CitasMedicaApp.Domain\obj\Debug\net8.0\ref\CitasMedicaApp.Domain.dll
