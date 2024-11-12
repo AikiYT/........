@@ -2,6 +2,7 @@ using CitasMedicasApp.Persistance.Context;
 using CitasMedicasApp.Persistance.Interface.Configuration;
 using CitasMedicasApp.Persistance.Repositories;
 using Microsoft.EntityFrameworkCore;
+using CitasMedicasIOC.Dependencies.Configuration;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -12,9 +13,12 @@ builder.Services.AddDbContext<CitaContext>(options => options.UseSqlServer(build
 
 // el registro de cada una de las dependencias repositorios de configuracion //
 
+builder.Services.AddConfigurationDependency();
+
 builder.Services.AddScoped<IDoctorRepositorio, DoctorRepositorio>();
 builder.Services.AddScoped<ICitaRepositorio, CitaRepositorio>();
 builder.Services.AddScoped<IPatientsRepositorio, PatientsRepositorio>();
+
 
 
 

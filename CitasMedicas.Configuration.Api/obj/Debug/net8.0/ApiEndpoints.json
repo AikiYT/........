@@ -144,33 +144,6 @@
   },
   {
     "ContainingType": "CitasMedicas.Configuration.Api.Controllers.DoctorController",
-    "Method": "Put",
-    "RelativePath": "api/Doctor/{id}",
-    "HttpMethod": "PUT",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [
-      {
-        "Name": "id",
-        "Type": "System.Int32",
-        "IsRequired": true
-      },
-      {
-        "Name": "value",
-        "Type": "System.String",
-        "IsRequired": true
-      }
-    ],
-    "ReturnTypes": [
-      {
-        "Type": "System.Void",
-        "MediaTypes": [],
-        "StatusCode": 200
-      }
-    ]
-  },
-  {
-    "ContainingType": "CitasMedicas.Configuration.Api.Controllers.DoctorController",
     "Method": "Delete",
     "RelativePath": "api/Doctor/{id}",
     "HttpMethod": "DELETE",
@@ -210,8 +183,24 @@
     "Order": 0,
     "Parameters": [
       {
-        "Name": "doctor",
-        "Type": "CitasMedicaApp.Domain.Entities.Doctors",
+        "Name": "doctorSaveDto",
+        "Type": "CitasMedicas.Applications.Dtos.Configuration.Doctor.DoctorSaveDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "CitasMedicas.Configuration.Api.Controllers.DoctorController",
+    "Method": "Put",
+    "RelativePath": "api/Doctor/UpdateDoctors",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "doctorUpdateDto",
+        "Type": "CitasMedicas.Applications.Dtos.Configuration.Doctor.DoctorUpdateDto",
         "IsRequired": true
       }
     ],

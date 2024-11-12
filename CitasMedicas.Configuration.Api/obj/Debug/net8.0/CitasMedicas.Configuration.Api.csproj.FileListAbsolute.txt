@@ -148,3 +148,8 @@ C:\Users\User\Desktop\NuevaCitasMedicasAPP\CitasMedicas.Configuration.Api\obj\De
 C:\Users\User\Desktop\NuevaCitasMedicasAPP\CitasMedicas.Configuration.Api\obj\Debug\net8.0\CitasMed.E93BA6BA.Up2Date
 C:\Users\User\Desktop\NuevaCitasMedicasAPP\CitasMedicas.Configuration.Api\obj\Debug\net8.0\CitasMedicas.Configuration.Api.genruntimeconfig.cache
 C:\Users\User\Desktop\NuevaCitasMedicasAPP\CitasMedicas.Configuration.Api\obj\Debug\net8.0\ref\CitasMedicas.Configuration.Api.dll
+C:\Users\User\Desktop\NuevaCitasMedicasAPP\CitasMedicas.Configuration.Api\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\User\Desktop\NuevaCitasMedicasAPP\CitasMedicas.Configuration.Api\bin\Debug\net8.0\CitasMedicas.Applications.dll
+C:\Users\User\Desktop\NuevaCitasMedicasAPP\CitasMedicas.Configuration.Api\bin\Debug\net8.0\CitasMedicasIOC.dll
+C:\Users\User\Desktop\NuevaCitasMedicasAPP\CitasMedicas.Configuration.Api\bin\Debug\net8.0\CitasMedicas.Applications.pdb
+C:\Users\User\Desktop\NuevaCitasMedicasAPP\CitasMedicas.Configuration.Api\bin\Debug\net8.0\CitasMedicasIOC.pdb

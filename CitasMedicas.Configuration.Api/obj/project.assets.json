@@ -294,7 +294,7 @@
           "buildTransitive/net6.0/_._": {}
         }
       },
-      "Microsoft.Extensions.DependencyInjection.Abstractions/8.0.0": {
+      "Microsoft.Extensions.DependencyInjection.Abstractions/8.0.2": {
         "type": "package",
         "compile": {
           "lib/net8.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll": {
@@ -1059,6 +1059,19 @@
           "bin/placeholder/CitasMedicaApp.Domain.dll": {}
         }
       },
+      "CitasMedicas.Applications/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "CitasMedicasApp.Persistance": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/CitasMedicas.Applications.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/CitasMedicas.Applications.dll": {}
+        }
+      },
       "CitasMedicasApp.Persistance/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v8.0",
@@ -1072,6 +1085,21 @@
         },
         "runtime": {
           "bin/placeholder/CitasMedicasApp.Persistance.dll": {}
+        }
+      },
+      "CitasMedicasIOC/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "CitasMedicas.Applications": "1.0.0",
+          "CitasMedicasApp.Persistance": "1.0.0",
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "8.0.2"
+        },
+        "compile": {
+          "bin/placeholder/CitasMedicasIOC.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/CitasMedicasIOC.dll": {}
         }
       }
     }
@@ -1709,10 +1737,10 @@
         "useSharedDesignerContext.txt"
       ]
     },
-    "Microsoft.Extensions.DependencyInjection.Abstractions/8.0.0": {
-      "sha512": "cjWrLkJXK0rs4zofsK4bSdg+jhDLTaxrkXu4gS6Y7MAlCvRyNNgwY/lJi5RDlQOnSZweHqoyvgvbdvQsRIW+hg==",
+    "Microsoft.Extensions.DependencyInjection.Abstractions/8.0.2": {
+      "sha512": "3iE7UF7MQkCv1cxzCahz+Y/guQbTqieyxyaWKhrRO91itI9cOKO76OHeQDahqG4MmW5umr3CcCvGmK92lWNlbg==",
       "type": "package",
-      "path": "microsoft.extensions.dependencyinjection.abstractions/8.0.0",
+      "path": "microsoft.extensions.dependencyinjection.abstractions/8.0.2",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -1736,7 +1764,7 @@
         "lib/netstandard2.0/Microsoft.Extensions.DependencyInjection.Abstractions.xml",
         "lib/netstandard2.1/Microsoft.Extensions.DependencyInjection.Abstractions.dll",
         "lib/netstandard2.1/Microsoft.Extensions.DependencyInjection.Abstractions.xml",
-        "microsoft.extensions.dependencyinjection.abstractions.8.0.0.nupkg.sha512",
+        "microsoft.extensions.dependencyinjection.abstractions.8.0.2.nupkg.sha512",
         "microsoft.extensions.dependencyinjection.abstractions.nuspec",
         "useSharedDesignerContext.txt"
       ]
@@ -3099,15 +3127,27 @@
       "path": "../CitasMedicaApp.Domain/CitasMedicaApp.Domain.csproj",
       "msbuildProject": "../CitasMedicaApp.Domain/CitasMedicaApp.Domain.csproj"
     },
+    "CitasMedicas.Applications/1.0.0": {
+      "type": "project",
+      "path": "../CitasMedicas.Applications/CitasMedicas.Applications.csproj",
+      "msbuildProject": "../CitasMedicas.Applications/CitasMedicas.Applications.csproj"
+    },
     "CitasMedicasApp.Persistance/1.0.0": {
       "type": "project",
       "path": "../CitasMedicasApp.Persistance/CitasMedicasApp.Persistance.csproj",
       "msbuildProject": "../CitasMedicasApp.Persistance/CitasMedicasApp.Persistance.csproj"
+    },
+    "CitasMedicasIOC/1.0.0": {
+      "type": "project",
+      "path": "../CitasMedicasIOC/CitasMedicasIOC.csproj",
+      "msbuildProject": "../CitasMedicasIOC/CitasMedicasIOC.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net8.0": [
+      "CitasMedicas.Applications >= 1.0.0",
       "CitasMedicasApp.Persistance >= 1.0.0",
+      "CitasMedicasIOC >= 1.0.0",
       "Swashbuckle.AspNetCore >= 6.4.0"
     ]
   },
@@ -3144,8 +3184,14 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
+            "C:\\Users\\User\\Desktop\\NuevaCitasMedicasAPP\\CitasMedicas.Applications\\CitasMedicas.Applications.csproj": {
+              "projectPath": "C:\\Users\\User\\Desktop\\NuevaCitasMedicasAPP\\CitasMedicas.Applications\\CitasMedicas.Applications.csproj"
+            },
             "C:\\Users\\User\\Desktop\\NuevaCitasMedicasAPP\\CitasMedicasApp.Persistance\\CitasMedicasApp.Persistance.csproj": {
               "projectPath": "C:\\Users\\User\\Desktop\\NuevaCitasMedicasAPP\\CitasMedicasApp.Persistance\\CitasMedicasApp.Persistance.csproj"
+            },
+            "C:\\Users\\User\\Desktop\\NuevaCitasMedicasAPP\\CitasMedicasIOC\\CitasMedicasIOC.csproj": {
+              "projectPath": "C:\\Users\\User\\Desktop\\NuevaCitasMedicasAPP\\CitasMedicasIOC\\CitasMedicasIOC.csproj"
             }
           }
         }

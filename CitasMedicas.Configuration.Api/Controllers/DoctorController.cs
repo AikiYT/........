@@ -1,4 +1,6 @@
 ﻿using CitasMedicaApp.Domain.Entities;
+using CitasMedicas.Applications.Contracts;
+using CitasMedicas.Applications.Dtos.Configuration.Doctor;
 using CitasMedicasApp.Persistance.Interface.Configuration;
 using Microsoft.AspNetCore.Mvc;
 
@@ -10,11 +12,11 @@ namespace CitasMedicas.Configuration.Api.Controllers
     [ApiController]
     public class DoctorController : ControllerBase
     {
-        private readonly IDoctorRepositorio _doctorRepositorio;
+        private readonly IDoctorService _doctorService;
 
-        public DoctorController(IDoctorRepositorio doctorRepositorio) 
+        public DoctorController(IDoctorService doctorService) 
         { 
-            _doctorRepositorio = doctorRepositorio;
+            _doctorService = doctorService;
         
         }
         // GET: api/<DoctorController>
@@ -22,9 +24,9 @@ namespace CitasMedicas.Configuration.Api.Controllers
         [HttpGet("GetDoctor")]
         public async Task<IActionResult> Get()
         {
-            var result = _doctorRepositorio.GettAll();
+            var result = await _doctorService.GetAll();
 
-            if (!result.Success)
+            if (!result.IsSuccess)
             
                 return BadRequest(result);
             
@@ -41,11 +43,12 @@ namespace CitasMedicas.Configuration.Api.Controllers
 
         // POST api/<DoctorController>
         [HttpPost("SaveDoctor")]//
-        public async Task<IActionResult> Post([FromBody] Doctors doctor)
+        public async Task<IActionResult> Post([FromBody] DoctorSaveDto doctorSaveDto)
         {
-            var result = await _doctorRepositorio.Save(doctor);
+            var result = await _doctorService.SaveAsync(doctorSaveDto);
+            
 
-            if (!result.Success)
+            if (!result.IsActive)
             { 
             return BadRequest(result);
             }
@@ -54,9 +57,16 @@ namespace CitasMedicas.Configuration.Api.Controllers
         }
 
         // PUT api/<DoctorController>/5
-        [HttpPut("{id}")]
-        public void Put(int id, [FromBody] string value)
+        [HttpPut("UpdateDoctors")]
+        public async Task<IActionResult> Put([FromBody] DoctorUpdateDto doctorUpdateDto)
         {
+            var result = await _doctorService.UpdateAsync(doctorUpdateDto);
+
+            if (!result.IsSuccess)
+            {
+                return BadRequest(result);
+            }
+            return Ok(result);
         }
 
         // DELETE api/<DoctorController>/5

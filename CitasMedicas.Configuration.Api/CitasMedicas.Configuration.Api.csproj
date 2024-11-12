@@ -11,7 +11,9 @@
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\CitasMedicas.Applications\CitasMedicas.Applications.csproj" />
     <ProjectReference Include="..\CitasMedicasApp.Persistance\CitasMedicasApp.Persistance.csproj" />
+    <ProjectReference Include="..\CitasMedicasIOC\CitasMedicasIOC.csproj" />
   </ItemGroup>
 
 </Project>

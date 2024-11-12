@@ -25,7 +25,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CitasMedicas.Users.Api", "C
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ProyectoDentro", "ProyectoDentro", "{6676DAD6-C97C-4758-A69A-A3E7CC377B88}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CitasMedicas.Appointment.Api", "CitasMedicas.Appointment.Api\CitasMedicas.Appointment.Api.csproj", "{081C40F4-F543-48DA-B464-D6DE01933BB1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CitasMedicas.Appointment.Api", "CitasMedicas.Appointment.Api\CitasMedicas.Appointment.Api.csproj", "{081C40F4-F543-48DA-B464-D6DE01933BB1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CitasMedicas.Applications", "CitasMedicas.Applications\CitasMedicas.Applications.csproj", "{C429F5C5-D2F4-4D95-99EF-40C0D4F55B2E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CitasMedicasIOC", "CitasMedicasIOC\CitasMedicasIOC.csproj", "{0B549982-E8A0-43AD-A64A-6576A0A2EB8F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -65,6 +69,14 @@ Global
 		{081C40F4-F543-48DA-B464-D6DE01933BB1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{081C40F4-F543-48DA-B464-D6DE01933BB1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{081C40F4-F543-48DA-B464-D6DE01933BB1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C429F5C5-D2F4-4D95-99EF-40C0D4F55B2E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C429F5C5-D2F4-4D95-99EF-40C0D4F55B2E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C429F5C5-D2F4-4D95-99EF-40C0D4F55B2E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C429F5C5-D2F4-4D95-99EF-40C0D4F55B2E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0B549982-E8A0-43AD-A64A-6576A0A2EB8F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0B549982-E8A0-43AD-A64A-6576A0A2EB8F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0B549982-E8A0-43AD-A64A-6576A0A2EB8F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0B549982-E8A0-43AD-A64A-6576A0A2EB8F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -81,6 +93,8 @@ Global
 		{FD181607-55DF-48CF-9DA3-26648425B2E9} = {D3C3BAA8-A3B0-4387-958C-9D6758EA0FED}
 		{D3913776-64DA-4040-93E3-28933E035017} = {D3C3BAA8-A3B0-4387-958C-9D6758EA0FED}
 		{081C40F4-F543-48DA-B464-D6DE01933BB1} = {D3C3BAA8-A3B0-4387-958C-9D6758EA0FED}
+		{C429F5C5-D2F4-4D95-99EF-40C0D4F55B2E} = {6BB37FC5-59F8-46A0-9DEC-3F9C04D2B3A6}
+		{0B549982-E8A0-43AD-A64A-6576A0A2EB8F} = {6BB37FC5-59F8-46A0-9DEC-3F9C04D2B3A6}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {5E7AAFDA-81F7-4926-93C1-D7E42C2CE4A8}

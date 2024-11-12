@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("CitasMedicas.Medical.Api")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+59953c38a3f7e1c2ec2087fb4f58cf9d8fd7458b")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+39bfcbf5daa1421087731232bbad87afd8e2b3d4")]
 [assembly: System.Reflection.AssemblyProductAttribute("CitasMedicas.Medical.Api")]
 [assembly: System.Reflection.AssemblyTitleAttribute("CitasMedicas.Medical.Api")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
