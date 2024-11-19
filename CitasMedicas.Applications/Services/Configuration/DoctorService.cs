@@ -19,7 +19,7 @@ namespace CitasMedicas.Applications.Services.Configuration
         private readonly IDoctorRepositorio _doctorRepositorio;
         private readonly ILogger<DoctorService> _logger;
 
-        public DoctorService(IDoctorRepositorio doctorRepositorio, ILogger<DoctorService> logger) 
+        public DoctorService(IDoctorRepositorio doctorRepositorio, ILogger<DoctorService> logger)  /// COLOR LA INTERFAZ DE NOTIFICACIONES
         {
             if (doctorRepositorio is null)
             {

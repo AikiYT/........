@@ -27,9 +27,11 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ProyectoDentro", "ProyectoD
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CitasMedicas.Appointment.Api", "CitasMedicas.Appointment.Api\CitasMedicas.Appointment.Api.csproj", "{081C40F4-F543-48DA-B464-D6DE01933BB1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CitasMedicas.Applications", "CitasMedicas.Applications\CitasMedicas.Applications.csproj", "{C429F5C5-D2F4-4D95-99EF-40C0D4F55B2E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CitasMedicas.Applications", "CitasMedicas.Applications\CitasMedicas.Applications.csproj", "{C429F5C5-D2F4-4D95-99EF-40C0D4F55B2E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CitasMedicasIOC", "CitasMedicasIOC\CitasMedicasIOC.csproj", "{0B549982-E8A0-43AD-A64A-6576A0A2EB8F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CitasMedicasIOC", "CitasMedicasIOC\CitasMedicasIOC.csproj", "{0B549982-E8A0-43AD-A64A-6576A0A2EB8F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CitasMedicasWeb", "CitasMedicasWeb\CitasMedicasWeb.csproj", "{622C1281-7B41-41D4-9F6D-68BA9D3FA4E9}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -77,6 +79,10 @@ Global
 		{0B549982-E8A0-43AD-A64A-6576A0A2EB8F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0B549982-E8A0-43AD-A64A-6576A0A2EB8F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0B549982-E8A0-43AD-A64A-6576A0A2EB8F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{622C1281-7B41-41D4-9F6D-68BA9D3FA4E9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{622C1281-7B41-41D4-9F6D-68BA9D3FA4E9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{622C1281-7B41-41D4-9F6D-68BA9D3FA4E9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{622C1281-7B41-41D4-9F6D-68BA9D3FA4E9}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -95,6 +101,7 @@ Global
 		{081C40F4-F543-48DA-B464-D6DE01933BB1} = {D3C3BAA8-A3B0-4387-958C-9D6758EA0FED}
 		{C429F5C5-D2F4-4D95-99EF-40C0D4F55B2E} = {6BB37FC5-59F8-46A0-9DEC-3F9C04D2B3A6}
 		{0B549982-E8A0-43AD-A64A-6576A0A2EB8F} = {6BB37FC5-59F8-46A0-9DEC-3F9C04D2B3A6}
+		{622C1281-7B41-41D4-9F6D-68BA9D3FA4E9} = {B03BA299-BF2E-478D-ACFC-3D14AC3D12E7}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {5E7AAFDA-81F7-4926-93C1-D7E42C2CE4A8}

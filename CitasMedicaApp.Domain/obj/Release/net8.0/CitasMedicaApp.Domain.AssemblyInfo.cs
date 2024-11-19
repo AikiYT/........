@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("CitasMedicaApp.Domain")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Release")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+9cd0b43f87e39f9587f9ba7f51a8bf1e670f5ddb")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+356314eb1e27b1af47c93fa79004293123c451f4")]
 [assembly: System.Reflection.AssemblyProductAttribute("CitasMedicaApp.Domain")]
 [assembly: System.Reflection.AssemblyTitleAttribute("CitasMedicaApp.Domain")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
