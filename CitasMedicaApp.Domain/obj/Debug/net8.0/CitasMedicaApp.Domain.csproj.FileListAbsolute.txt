@@ -22,3 +22,15 @@ C:\Users\User\Desktop\NuevaCitasMedicasAPP\CitasMedicaApp.Domain\bin\Debug\net8.
 C:\Users\User\Desktop\NuevaCitasMedicasAPP\CitasMedicaApp.Domain\bin\Debug\net8.0\CitasMedicaApp.Domain.dll
 C:\Users\User\Desktop\NuevaCitasMedicasAPP\CitasMedicaApp.Domain\bin\Debug\net8.0\CitasMedicaApp.Domain.pdb
 C:\Users\User\Desktop\NuevaCitasMedicasAPP\CitasMedicaApp.Domain\obj\Debug\net8.0\ref\CitasMedicaApp.Domain.dll
+C:\Users\Administrador\Source\Repos\AikiYT\CitasMedicasCRS\CitasMedicaApp.Domain\bin\Debug\net8.0\CitasMedicaApp.Domain.deps.json
+C:\Users\Administrador\Source\Repos\AikiYT\CitasMedicasCRS\CitasMedicaApp.Domain\bin\Debug\net8.0\CitasMedicaApp.Domain.dll
+C:\Users\Administrador\Source\Repos\AikiYT\CitasMedicasCRS\CitasMedicaApp.Domain\bin\Debug\net8.0\CitasMedicaApp.Domain.pdb
+C:\Users\Administrador\Source\Repos\AikiYT\CitasMedicasCRS\CitasMedicaApp.Domain\obj\Debug\net8.0\CitasMedicaApp.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Administrador\Source\Repos\AikiYT\CitasMedicasCRS\CitasMedicaApp.Domain\obj\Debug\net8.0\CitasMedicaApp.Domain.AssemblyInfoInputs.cache
+C:\Users\Administrador\Source\Repos\AikiYT\CitasMedicasCRS\CitasMedicaApp.Domain\obj\Debug\net8.0\CitasMedicaApp.Domain.AssemblyInfo.cs
+C:\Users\Administrador\Source\Repos\AikiYT\CitasMedicasCRS\CitasMedicaApp.Domain\obj\Debug\net8.0\CitasMedicaApp.Domain.csproj.CoreCompileInputs.cache
+C:\Users\Administrador\Source\Repos\AikiYT\CitasMedicasCRS\CitasMedicaApp.Domain\obj\Debug\net8.0\CitasMedicaApp.Domain.sourcelink.json
+C:\Users\Administrador\Source\Repos\AikiYT\CitasMedicasCRS\CitasMedicaApp.Domain\obj\Debug\net8.0\CitasMedicaApp.Domain.dll
+C:\Users\Administrador\Source\Repos\AikiYT\CitasMedicasCRS\CitasMedicaApp.Domain\obj\Debug\net8.0\refint\CitasMedicaApp.Domain.dll
+C:\Users\Administrador\Source\Repos\AikiYT\CitasMedicasCRS\CitasMedicaApp.Domain\obj\Debug\net8.0\CitasMedicaApp.Domain.pdb
+C:\Users\Administrador\Source\Repos\AikiYT\CitasMedicasCRS\CitasMedicaApp.Domain\obj\Debug\net8.0\ref\CitasMedicaApp.Domain.dll

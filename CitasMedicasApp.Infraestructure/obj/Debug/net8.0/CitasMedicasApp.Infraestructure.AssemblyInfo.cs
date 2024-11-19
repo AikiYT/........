@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("CitasMedicasApp.Infraestructure")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+356314eb1e27b1af47c93fa79004293123c451f4")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+15b6029a95aadbd7b80695db26eee484e4a9f417")]
 [assembly: System.Reflection.AssemblyProductAttribute("CitasMedicasApp.Infraestructure")]
 [assembly: System.Reflection.AssemblyTitleAttribute("CitasMedicasApp.Infraestructure")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
