@@ -31,7 +31,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CitasMedicas.Applications",
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CitasMedicasIOC", "CitasMedicasIOC\CitasMedicasIOC.csproj", "{0B549982-E8A0-43AD-A64A-6576A0A2EB8F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CitasMedicasWeb", "CitasMedicasWeb\CitasMedicasWeb.csproj", "{622C1281-7B41-41D4-9F6D-68BA9D3FA4E9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CitasMedicasWeb", "CitasMedicasWeb\CitasMedicasWeb.csproj", "{622C1281-7B41-41D4-9F6D-68BA9D3FA4E9}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

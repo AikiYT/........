@@ -1,20 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Administrador\\Source\\Repos\\AikiYT\\CitasMedicasCRS\\CitasMedicaApp.Domain\\CitasMedicaApp.Domain.csproj": {}
+    "C:\\Users\\User\\Source\\Repos\\CitasMedicasCRS2\\CitasMedicaApp.Domain\\CitasMedicaApp.Domain.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Administrador\\Source\\Repos\\AikiYT\\CitasMedicasCRS\\CitasMedicaApp.Domain\\CitasMedicaApp.Domain.csproj": {
+    "C:\\Users\\User\\Source\\Repos\\CitasMedicasCRS2\\CitasMedicaApp.Domain\\CitasMedicaApp.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Administrador\\Source\\Repos\\AikiYT\\CitasMedicasCRS\\CitasMedicaApp.Domain\\CitasMedicaApp.Domain.csproj",
+        "projectUniqueName": "C:\\Users\\User\\Source\\Repos\\CitasMedicasCRS2\\CitasMedicaApp.Domain\\CitasMedicaApp.Domain.csproj",
         "projectName": "CitasMedicaApp.Domain",
-        "projectPath": "C:\\Users\\Administrador\\Source\\Repos\\AikiYT\\CitasMedicasCRS\\CitasMedicaApp.Domain\\CitasMedicaApp.Domain.csproj",
-        "packagesPath": "C:\\Users\\Administrador\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Administrador\\Source\\Repos\\AikiYT\\CitasMedicasCRS\\CitasMedicaApp.Domain\\obj\\",
+        "projectPath": "C:\\Users\\User\\Source\\Repos\\CitasMedicasCRS2\\CitasMedicaApp.Domain\\CitasMedicaApp.Domain.csproj",
+        "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\User\\Source\\Repos\\CitasMedicasCRS2\\CitasMedicaApp.Domain\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\Administrador\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [

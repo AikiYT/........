@@ -15,6 +15,9 @@ builder.Services.AddDbContext<CitaContext>(options => options.UseSqlServer(build
 
 builder.Services.AddConfigurationDependency();
 
+
+
+
 builder.Services.AddScoped<IDoctorRepositorio, DoctorRepositorio>();
 builder.Services.AddScoped<ICitaRepositorio, CitaRepositorio>();
 builder.Services.AddScoped<IPatientsRepositorio, PatientsRepositorio>();

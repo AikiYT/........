@@ -1,5 +1,6 @@
 ﻿using CitasMedicas.Applications.Contracts;
 using CitasMedicas.Applications.Services.Configuration;
+using CitasMedicasApp.Persistance.Models;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 
@@ -15,21 +16,29 @@ namespace CitasMedicasWeb.Controllers
         }
 
 
-        //public async Task<IActionResult> Index()
-        //{
-        //    var result = await doctorService.GetAll();
-        //    if (result.IsSuccess)
-        //    {
-        //        List<DoctorController1> doctorController1 = (List<DoctorController1>)Results.Data;
-        //             return View(doctorController1);
-        //    }
-        //   return View();
-        //}
-
-        public ActionResult Details(int id)
+        public async Task<IActionResult> Index()
         {
-            return View();
+            var result = await doctorService.GetAll();
+           if (result.IsSuccess)
+           {
+                List<DoctorModel> doctorController1 = (List<DoctorModel>)Results.Empty;
+                    return View(doctorController1);
+            }
+          return View();
         }
+
+        /*public async ActionResult Details(int id)
+        {
+            var result = doctorService.GetById(id);
+            if (result.IsCompletedSuccessfully)
+            {
+
+
+                BusModel busModel = (BusModel)result.
+                    return View(doctorService);
+            }
+            return View();
+        }*/
 
         public ActionResult Create()
         {

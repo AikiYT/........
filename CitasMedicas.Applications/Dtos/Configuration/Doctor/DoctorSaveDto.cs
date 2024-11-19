@@ -28,13 +28,7 @@ namespace CitasMedicas.Applications.Dtos.Configuration.Doctor
 
         public int AvailabilityModeId { get; set; }
 
-        public DateTime licenseExpirationDate { get; set; }
-
-        public DateTime CreatedAt { get; set; }
-
-        public DateTime UpdatedAt { get; set; }
-
-        public bool IsActive { get; set; }
+       
 
 
 

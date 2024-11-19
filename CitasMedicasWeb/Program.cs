@@ -1,3 +1,10 @@
+using CitasMedicas.Applications.Contracts;
+using CitasMedicas.Applications.Services.Configuration;
+using CitasMedicasApp.Persistance.Context;
+using CitasMedicasApp.Persistance.Interface.Configuration;
+using CitasMedicasApp.Persistance.Repositories;
+using Microsoft.EntityFrameworkCore;
+
 namespace CitasMedicasWeb
 {
     public class Program
@@ -7,6 +14,13 @@ namespace CitasMedicasWeb
             var builder = WebApplication.CreateBuilder(args);
 
             // Add services to the container.
+
+            builder.Services.AddDbContext<CitaContext>(options => options.UseSqlServer(builder.Configuration.GetConnectionString("CitasMedicasDb")));
+
+            builder.Services.AddScoped<IDoctorRepositorio, DoctorRepositorio>();
+
+            builder.Services.AddTransient<IDoctorService, DoctorService>();
+
             builder.Services.AddControllersWithViews();
 
             var app = builder.Build();
